@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Word Press - Admin" parallel="false">
+  <test name="Run on FireFox">
+    <classes>
+      <class name="com.wordpress.posts.Post_01_New_Edit_Delete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
