@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Word Press - Admin" parallel="false">
-  <test name="Run on FireFox">
+  <test name="Run on Chrome">
     <classes>
-      <class name="com.wordpress.posts.Post_01_New_Edit_Delete"/>
+      <class name="com.wordpress.login.Level01_LogIn_Repeat_Your_Self"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
