@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Word Press - Admin" parallel="false">
   <test name="Run on Chrome">
+    <parameter name="browser" value="chrome_ui"></parameter>
     <classes>
-      <class name="com.wordpress.login.Level01_LogIn_Repeat_Your_Self"/>
+      <class name="com.wordpress.login.Level07_LogIn_BasePage_WebDataTable"/>
     </classes>
   </test> <!-- Test -->
+  
+ <!--   <test name="Run on Chrome Headless">
+    <parameter name="browser" value="chrome_headless"></parameter>
+    <classes>
+      <class name="com.wordpress.login.Level04_LogIn_BasePage_MultipleBrowser"/>
+    </classes>
+  </test> Test
+  
+   <test name="Run on FireFox">
+    <parameter name="browser" value="firefox_ui"></parameter>
+    <classes>
+      <class name="com.wordpress.login.Level04_LogIn_BasePage_MultipleBrowser"/>
+    </classes>
+  </test> Test
+  
+   <test name="Run on FireFox headless">
+    <parameter name="browser" value="firefox_headless"></parameter>
+    <classes>
+      <class name="com.wordpress.login.Level04_LogIn_BasePage_MultipleBrowser"/>
+    </classes>
+  </test> Test
+  
+   <test name="Run on Edge Chromium">
+    <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.wordpress.login.Level04_LogIn_BasePage_MultipleBrowser"/>
+    </classes> -->
+  <!-- </test> Test -->
 </suite> <!-- Suite -->
